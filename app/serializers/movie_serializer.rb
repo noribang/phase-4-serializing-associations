@@ -3,4 +3,5 @@ class MovieSerializer < ActiveModel::Serializer
   
   # Added
   belongs_to :director
+  has_many :reviews
 end
